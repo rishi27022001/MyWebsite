@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  position: relative;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 1.2rem;
+}
+h1 {
+  color: #66BFBF;
+  margin: auto;
+  font-family: 'Luxurious Script', cursive;
+  font-size: 8rem;
+}
+h2 {
+  color: #11999E;
+  margin: auto;
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+  font-weight: normal;
+}
+h3 {
+  color: #1DB9C3;
+  padding-top: 50px;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 4px;
+  color: grey;
+  margin: 3rem auto;
+  width: 5%;
+}
+.top-container {
+  background-color: #EAF6F6;
+  padding-top: 6.25rem;
+  margin-top: 0;
+  margin-bottom: 6.25rem;
+}
+.mid-container {
+  line-height: 2;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 25px;
+  margin-top: 25px;
+}
+.greeting-heading {
+  margin-top: 20px;
+  font-family: 'Gwendolyn', cursive;
+  font-size: 500%;
+}
+.my-skills-heading {
+  font-weight:bolder;
+}
+.personal-information {
+  width: 40%;
+  margin: auto;
+  margin-top: 20px;
+}
+.skills {
+  margin: auto 200px;
+}
+.skill-row {
+  text-align: left;
+  margin-bottom: 150px;
+}
+.coding-skill-description {
+}
+.guitar-skill-description {
+
+}
+.bike-riding-skill-description {
+  width: 102%;
+  margin: auto;
+}
+.top-cloud-img {
+  position: absolute;
+  margin-top: 6.25rem;
+  right: 10.625rem;
+  bottom: 210.125rem;
+}
+.bottom-cloud-img {
+  position: absolute;
+  left: 200px;
+  top: 300px;
+}
+.scenery-img {}
+.profile-img {
+  border-radius: 100%;
+  width: 10%;
+  margin-bottom: 10px;
+}
+.coding-img {
+  border-radius: 100%;
+  float: left;
+  margin: 50px;
+  width: 25%;
+}
+.guitar-img {
+  border-radius: 100%;
+  float: right;
+  margin: 50px;
+  width: 25%;
+}
+.bike-riding-img{
+  position: relative;
+  border-radius: 10%;
+  float: left;
+  margin: 50px;
+  width: 25%;
+  height: 30%;
+  top: 70px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.twitter-link, .linkedin-link, .github-link {
+  display: inline;
+}
+.social-media-buttons {
+  width: 4%;
+  margin: 2%;
+}
